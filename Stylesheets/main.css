@@ -1,0 +1,377 @@
+html {
+    overflow-x: hidden;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color:#dbd7d7; */
+    background-color:rgb(238, 228, 228);
+}
+.myh{
+    height: 100%;
+    background-color: #394263;
+}
+.img-con {
+    height: 65px;
+    width: 65px;
+    background-image: url("../Assets/images/Sunny.jpg");
+    background-position: center;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 60%;
+}
+.circle1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dytxt{
+    font-weight: 700;
+    font-size: 17px;
+}
+.ms {
+    width: fit-content;
+}
+
+.color-con1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+input[type="text"]:focus {
+    outline: none;
+}
+.icon-con{
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    margin-bottom: 0;
+    font-size: 13px;
+}
+.gms-text{
+    color: #bdc0c8;
+}
+.time-data{
+    font-size: 10px;
+}
+.color-con:nth-child(odd) {
+    height: 20px;
+    width: 20px;
+    border-radius: 60%;
+    background-color: rgba(255, 0, 0, 0.313);
+    border: 2px solid white;
+}
+/* .gms{
+    /* background-color:#394263; */
+/* }  */
+
+.color-con:nth-child(even) {
+    height: 20px;
+    width: 20px;
+    border-radius: 60%;
+    background-color: rgba(0, 128, 0, 0.225);
+    border: 2px solid white;
+}
+.cus-font{
+    font-weight: 500;
+
+}
+.bb{
+    border-bottom:2px solid rgba(209, 207, 207, 0.592);
+    text-align: center !important;
+}
+.mycolor{
+    background-color: #898d92 ;
+}
+.cus-wh{
+    background-color: #ffffff;
+    padding: 20px;
+}
+.banner{
+    height: 45vh;
+    background-image: url("../Assets/images/dashboard_header2.jpg");
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+
+.lower-txt{
+    font-weight: 100;
+    font-size: 18px;
+}
+
+    /* background-color: rgba(12, 11, 11, 0.422); */
+
+.half-banner{
+    position: absolute;
+    background-color: rgba(12, 11, 11, 0.422);
+    top:30;
+    left: 0;
+    right: 0;
+    font-size: 25px;
+    font-weight:600;
+    
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    font-size:28px;
+    color:white;
+}
+
+
+
+.or{
+    background-color: rgba(251, 171, 21, 0.971);
+
+}
+.gr{
+    background-color: rgb(52, 171, 52);
+}
+
+.rd{
+    background-color: rgb(221, 52, 52);
+}
+
+.bn{
+    background: blueviolet;
+}
+.bl{
+    background-color: #00ddff;
+}
+.bg-darks{
+    background-color: #212529;
+}
+.new-bar-data{
+    width: 200px;
+    position: absolute;
+    right: 2px;
+    bottom: 0;
+    top: 10px;
+}
+.stat1{
+    position: relative;
+}
+.temp-txt{
+    font-size: 20px;
+    font-weight: 600;
+}
+.banner-profile{
+    position: absolute;
+    right: 0;
+}
+.banner-img-con{
+    padding-top:30px;
+}
+.banner-text{
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+.banner-text2{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 100;
+}
+.hm{
+    height: 42.5vh;
+    background-color: #394263;
+}
+.banner-profile{
+    background-image: url("../Assets/images/Sunny.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+    border-radius: 60px;
+}
+.mv{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    color:white;
+    border-radius: 60px;
+    background-color: rgb(3, 202, 63);
+}
+
+.right-profile{
+    height:45px;
+    width: 45px;
+    background-image: url("../Assets/images/Sunny.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 60px;
+    border: 2px solid white;
+}
+
+.latest-setting{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.cust-timeline{
+    position: relative;
+    /* height:96%; */
+}
+.air-circle{
+    height: 30px;
+    width: 30px;
+    padding: 20px;
+    background: rgb(56, 128, 200);
+    border-radius: 60px;
+}
+.timelin-p-text{
+    width: fit-content;
+    padding: 2px;
+    border-radius: 5px;
+    background-color:rgb(56, 128, 200); ;
+}
+.upper-show{
+    z-index: 1000;
+}
+.timeline{
+    height: 100%;
+    width: 5px;
+    background-color:rgb(190, 193, 193);
+    position: absolute;
+    left:15.5%;
+    top: 0;
+}
+.main-heading-statics{
+    color: white;
+    font-size: 30px;
+}
+.statics-text{
+font-size:23px;
+}
+
+.cus-color{
+    background-color: #b9c2db;
+    border-radius: 5px;
+    gap: 2px;
+    padding: 3px;
+
+}
+.sale-earnings{
+    height: 80vh;
+    width: 50vw;
+    background-color: aqua;
+}
+
+
+
+.latest-con{
+    position: relative;
+}
+
+.big{
+    
+    font-size: 25px;
+    font-weight: 700;
+}
+.small{
+   
+    font-size: 17px;
+    font-weight: 100;
+}
+
+
+
+.statics-graph{
+    background-color:#01c9e7;
+    position: relative;
+}
+.can1{
+    position: absolute;
+    left: 5px;
+    top: 0%;
+    /* background-color: red; */
+}
+
+
+
+
+.graph-bottom{ 
+    background-color: #fff;
+}
+
+.Awesome-Gallery{
+    background-color: #394263;
+    position: relative;
+}
+.awesome-main{
+    background-color:#fff;
+
+}
+.img-gallery{
+    background-color: rgb(67, 155, 226);
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    position: absolute;
+    bottom: -39px;
+    left: 45%;
+    font-size: 20px;
+}
+
+.weather{
+    background-image: url("../Assets/images/widget5_header.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 28vh;
+}
+
+.weather-header{
+   background-color: rgba(0, 0, 0, 0.555);
+}
+
+.weather-txt{
+    font-size: 25px;
+    padding: 2px;
+}
+
+.timeline-txt p {
+    font-size: 12px;
+}
+.disappear{
+    display: none;
+}
+
+@media screen and (min-width:991px) {
+    .half-banner{
+        width:100% ;
+    }
+   
+}
+
+@media screen and (max-width:678px) {
+    .nvs{
+        display: none;
+    }
+
+   
+}
+
+
+
+@media screen and (min-width:1299px) {
+    .cust-timeline{
+        height:95.2%;
+    }
+   
+}

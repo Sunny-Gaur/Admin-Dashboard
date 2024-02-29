@@ -5,6 +5,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
 }
 
 body{
@@ -62,6 +63,7 @@ p{
 .time-data{
     font-size: 10px;
 }
+
 .color-con:nth-child(odd) {
     height: 20px;
     width: 20px;
@@ -222,7 +224,6 @@ p{
 }
 .cust-timeline{
     position: relative;
-    /* height:96%; */
 }
 .air-circle{
     height: 30px;
@@ -230,6 +231,14 @@ p{
     padding: 20px;
     background: rgb(56, 128, 200);
     border-radius: 60px;
+}
+.air-circle{
+    position: absolute;
+    left:30px;
+}
+
+.timeline-txt p{
+    font-size:10px !important;
 }
 .timelin-p-text{
     width: fit-content;
@@ -245,7 +254,7 @@ p{
     width: 5px;
     background-color:rgb(190, 193, 193);
     position: absolute;
-    left:15.5%;
+    /* left:15.5%; */
     top: 0;
 }
 .main-heading-statics{
@@ -355,15 +364,29 @@ font-size:23px;
 @media screen and (min-width:991px) {
     .half-banner{
         width:100% ;
-    }
-   
+    }   
 }
 
+@media screen and (max-width:991px) {
+   .hamburger,.tollbox{
+    font-size: 25px;
+    font-weight: 900;
+   }
+   .icon-con{
+    font-size: 25px;
+    padding: 10px;
+   }
+   .main-txt{
+    font-size: 20px;
+    font-weight:400;
+   }
+ 
+  
+}
 @media screen and (max-width:678px) {
     .nvs{
         display: none;
     }
-
    
 }
 

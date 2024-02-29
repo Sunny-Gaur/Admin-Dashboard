@@ -236,20 +236,29 @@ new Chart(ctx4, {
 
 // Set the specified width threshold
 document.addEventListener("DOMContentLoaded", function () {
+    let condisapeer=document.getElementById("disaper-container-fluid");
+    let seprator=document.getElementById("sepator");
+    let img_con=document.getElementById("img-con");
     var specifiedWidth = 991;
 
     // Function to check window width and add class
     function checkWindowWidth() {
-        var windowWidth = window.innerWidth;
+        var windowWidths = window.innerWidth;
 
         // Check if the window width is equal to or greater than the specified width
-        if (windowWidth <= specifiedWidth) {
+        if (windowWidths <= specifiedWidth) {
             var element = document.getElementById('collapseExample');
             element.classList.add("collapse");
-           
+            img_con.classList.add("p-5");
+            condisapeer.classList.remove("container-fluid");
         } else {
             var element = document.getElementById('collapseExample');
             element.classList.remove("collapse");
+            condisapeer.classList.add("container-fluid");
+            seprator.classList.remove("p-3");
+            img_con.classList.remove("p-5");
+
+            // console.log(condisapeer)
         }
     }
 

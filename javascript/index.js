@@ -248,14 +248,14 @@ document.addEventListener("DOMContentLoaded", function () {
         // Check if the window width is equal to or greater than the specified width
         if (windowWidths <= specifiedWidth) {
             var element = document.getElementById('collapseExample');
-            element.classList.add("collapse");
             img_con.classList.add("p-5");
+            element.classList.remove("collapse");
             condisapeer.classList.remove("container-fluid");
         } else {
             var element = document.getElementById('collapseExample');
-            element.classList.remove("collapse");
             condisapeer.classList.add("container-fluid");
             seprator.classList.remove("p-3");
+            element.classList.add("collapse");
             img_con.classList.remove("p-5");
 
             // console.log(condisapeer)

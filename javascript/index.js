@@ -249,13 +249,11 @@ document.addEventListener("DOMContentLoaded", function () {
         if (windowWidths <= specifiedWidth) {
             var element = document.getElementById('collapseExample');
             img_con.classList.add("p-5");
-            element.classList.remove("collapse");
             condisapeer.classList.remove("container-fluid");
         } else {
             var element = document.getElementById('collapseExample');
             condisapeer.classList.add("container-fluid");
             seprator.classList.remove("p-3");
-            element.classList.add("collapse");
             img_con.classList.remove("p-5");
 
             // console.log(condisapeer)
@@ -320,6 +318,5 @@ HH.forEach((item)=>{
 })
 console.log(crown);
 })
-
 
 

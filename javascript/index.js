@@ -239,6 +239,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let condisapeer=document.getElementById("disaper-container-fluid");
     let seprator=document.getElementById("sepator");
     let img_con=document.getElementById("img-con");
+    let cross=document.querySelector(".cross");
+
     var specifiedWidth = 991;
 
     // Function to check window width and add class
